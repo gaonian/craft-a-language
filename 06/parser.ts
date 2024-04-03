@@ -303,8 +303,8 @@ export class Parser{
         //stmt
         let stmt = this.parseStatement();
 
-        return new ForStatement(beginPos, this.scanner.getLastPos(), init, terminate, increment, stmt, isErrorNode);
-        
+        let forstmt = new ForStatement(beginPos, this.scanner.getLastPos(), init, terminate, increment, stmt, isErrorNode);
+        return forstmt;        
     }
 
     /**

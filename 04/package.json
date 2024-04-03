@@ -9,6 +9,7 @@
   "author": "Gong Wenxue",
   "license": "木兰开源协议",
   "devDependencies": {
-    "@types/node": "^15.6.1"
+    "@types/node": "^15.14.9",
+    "ts-node": "^10.9.2"
   }
 }

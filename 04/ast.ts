@@ -315,7 +315,7 @@ export abstract class AstVisitor{
         return this.visitBlock(functionDecl.body);
     }
 
-      visitBlock(Block:Block):any{
+    visitBlock(Block:Block):any{
         let retVal:any;
         for(let x of Block.stmts){
             retVal = this.visit(x);
